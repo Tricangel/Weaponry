@@ -20,11 +20,23 @@
 		],
 		"fabric-datagen": [
 			"bee.weaponry.WeaponryDataGenerator"
+		],
+		"client": [
+			"bee.weaponry.WeaponryClient"
+		],
+		"cardinal-components-entity": [
+          "bee.weaponry.registry.ModEntityComponents"
 		]
 	},
 	"mixins": [
 		"weaponry.mixins.json"
 	],
+	"custom": {
+		"cardinal-components": [
+			"weaponry:explosivetimer",
+			"weaponry:amount_of_explosives"
+		]
+	},
 	"depends": {
 		"fabricloader": ">=0.18.4",
 		"minecraft": "~1.21.11",

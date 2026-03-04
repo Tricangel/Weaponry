@@ -1,8 +1,8 @@
 package bee.weaponry;
 
 import bee.weaponry.registry.ModItems;
+import bee.weaponry.registry.ModSounds;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +17,12 @@ public class Weaponry implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.init();
+		ModSounds.init();
+
+
+
+
+
+
 	}
 }

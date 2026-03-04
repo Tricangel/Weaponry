@@ -1,0 +1,16 @@
+{
+  "bomb.tick": {
+    "subtitle": "sounds.weaponry:bomb.tick",
+    "sounds": [
+      "weaponry:tick-1",
+      "weaponry:tick-2",
+      "weaponry:tick-3"
+    ]
+  },
+  "bomb.explode": {
+    "subtitle": "sounds.weaponry:bomb.explode",
+    "sounds": [
+      "weaponry:explode"
+    ]
+  }
+}

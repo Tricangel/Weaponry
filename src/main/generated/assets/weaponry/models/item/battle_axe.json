@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "weaponry:item/weapontest"
+    "layer0": "weaponry:item/battle_axe"
   }
 }
