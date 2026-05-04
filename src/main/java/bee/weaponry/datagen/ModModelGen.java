@@ -20,5 +20,6 @@ public class ModModelGen extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(ModItems.BATTLE_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.BATTLE_AXE_PULLBACK, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
 }

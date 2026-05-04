@@ -15,6 +15,7 @@ import java.util.function.Function;
 public class ModItems {
 
     public static final Item BATTLE_AXE = register("battle_axe", BattleAxeItem::new, new Item.Properties().axe(ToolMaterial.NETHERITE, 4, -2.7f));
+    public static final Item BATTLE_AXE_PULLBACK = register("battle_axe_pullback", BattleAxeItem::new, new Item.Properties().axe(ToolMaterial.NETHERITE, 4, -2.7f));
 
     public static void init() {}
 

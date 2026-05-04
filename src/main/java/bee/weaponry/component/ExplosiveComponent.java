@@ -47,7 +47,7 @@ public class ExplosiveComponent implements AutoSyncedComponent, CommonTickingCom
         if (getValue() != 0 && getValue() % 10 == 0 && livingEntity.level().isClientSide()) {
             if (livingEntity.isAlive() && livingEntity instanceof Player player) {
                 ClientLevel level = (ClientLevel) livingEntity.level();
-                level.playLocalSound(livingEntity, ModSounds.BOMB_TICK, SoundSource.PLAYERS, 1, new Random().nextFloat(0.8f, 1.2f));
+                //level.playLocalSound(livingEntity, ModSounds.BOMB_TICK, SoundSource.PLAYERS, 1, new Random().nextFloat(0.8f, 1.2f));
             }
         }
         if (!livingEntity.level().isClientSide()) {
